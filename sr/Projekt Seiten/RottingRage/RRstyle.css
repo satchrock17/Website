@@ -40,3 +40,8 @@ body{
 .ProjectTitle{
     font-size: x-large;
 }
+
+.Headline{
+    font-size: larger;
+    margin-top: 15px;
+}
