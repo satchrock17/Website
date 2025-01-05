@@ -58,14 +58,6 @@ body{
     font-size: xx-large;
 }
 
-#ProjectsFinished{
-    font-size: x-large;
-}
-
-#ProjectsPlanned{
-    font-size: x-large;
-}
-
 .ProjectHeadline{
     font-size: larger;
     flex-shrink:0;
