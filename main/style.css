@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+}
+
+.Ebox{
+    border: 3px;
+    border-radius: 5px;
+    border-color:green;
+    border-style: solid;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left:30px;
+    background-color: rgb(0, 30, 4);
+}
+
+.Lbox{
+    border: 3px;
+    border-radius: 5px;
+    border-color:blue;
+    border-style: solid;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left:30px;
+    background-color: rgb(0, 0, 34);
+}
+
+.sbox{
+    border: 3px;
+    border-radius: 5px;
+    border-color:white;
+    border-style: solid;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left:30px;
+    background-color: rgb(61, 61, 61);
+}
+
+.Headline{
+    font-size: xx-large;
+    margin-top:3px;
+}
+
+.Alias{
+    font-size: larger;
+}
