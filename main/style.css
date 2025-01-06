@@ -4,9 +4,19 @@ body{
     color: white;
 }
 
+.ELsHeadline{
+    margin-top:50px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .container{
     display:flex;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 20px;
 }
 
 .Ebox{
@@ -14,10 +24,21 @@ body{
     border-radius: 5px;
     border-color:green;
     border-style: solid;
-    margin-top: 40px;
-    margin-right: 70px;
-    margin-left:30px;
     background-color: rgb(0, 30, 4);
+    color:white;
+    text-align: center;
+    width: 250px; /* Breite der Boxen */
+    height: 200px; /* Höhe der Boxen */
+    padding: 20px;
+}
+
+.Ebox a{
+    color: white;
+    text-decoration: none;
+}
+
+.Ebox a:hover {
+    color: white;
 }
 
 .Lbox{
@@ -25,10 +46,20 @@ body{
     border-radius: 5px;
     border-color:blue;
     border-style: solid;
-    margin-top: 40px;
-    margin-right: 70px;
-    margin-left:30px;
     background-color: rgb(0, 0, 34);
+    text-align: center;
+    width: 250px; /* Breite der Boxen */
+    height: 200px; /* Höhe der Boxen */
+    padding: 20px;
+}
+
+.Lbox a{
+    color: white;
+    text-decoration: none;
+}
+
+.Lbox a:hover {
+    color: white;
 }
 
 .sbox{
@@ -36,10 +67,20 @@ body{
     border-radius: 5px;
     border-color:white;
     border-style: solid;
-    margin-top: 40px;
-    margin-right: 70px;
-    margin-left:30px;
     background-color: rgb(61, 61, 61);
+    text-align: center;
+    width: 250px; /* Breite der Boxen */
+    height: 200px; /* Höhe der Boxen */
+    padding: 20px;
+}
+
+.sbox a{
+    color: white;
+    text-decoration: none;
+}
+
+.sbox a:hover {
+    color: white;
 }
 
 .Headline{
@@ -49,4 +90,11 @@ body{
 
 .Alias{
     font-size: larger;
+}
+
+#notice{
+    font-size:xx-small;
+    color:white;
+    justify-content:end;
+    text-align: center;
 }
