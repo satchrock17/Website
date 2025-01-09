@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELs Project Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navi-->
+     <nav class="navbar">
+        <div class="navbar_container">
+            <a href="index.html#home" id="navbar_logo">EARTH_BUSTERS SEITE</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html#home" class="navbar_link" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="index.html#about_neu" class="navbar_link" id="about-page">Über</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="index.html#services" class="navbar_link" id="projekte-page">Projekte</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="../" class="button" id="signup">ELs Project Group</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+     <div class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading">
+                <span>EMDR</span>-Lichtleiste
+            </h1>
+            <p class="hero_description">Zur Unterstützung von Psychotherapeuten bei der EMDR-Therapie</p>
+            <button class="main_btn"><a href="#uebersicht">Weiter</a></button>
+        </div>
+     </div>
+
+     <!-- About Section -->
+     <div class="main_neu" id="uebersicht">
+        <div class="main_container_neu">
+            <div class="main_img-container_neu">
+                <div class="main_img-card_neu"><img src="/EB/Bilder EMDR/Uebersicht4.jpeg" alt="Mein KI-Roboterbild als Logo"></div>
+                
+            </div>
+            <div class="main_content_neu" id="EMDR">
+                <h1>Das Projekt</h1>
+                <h2>Eine medizinische Erleichterung</h2>
+                <p>Dieses Projekt besteht aus einem ESP32, der einen Meter WS2812B Neopixel ansteuert und darauf einen 
+                    Lichtpunkt (= 1 angeschalteter Pixel) immer hin- und herlaufen lässt. In einer Therapie
+                    ist es die Aufgabe des Patienten, diesem Punkt mit den Augen zu folgen um somit die Verarbeitung 
+                    eines traumatischen Ereignisses zu beschleunigen.
+                </p>
+                <button class="main_btn_neu"><a href="#v1">Zu Version 1</a></button>
+            </div>
+        </div>
+     </div>
+
+
+
+     <!-- Feature Section -->
+     <div class="main_neu" id="v1">
+        <div class="main_container_neu">
+            <div class="main_content_neu" id="EMDR">
+                <h1>Version 1</h1>
+                <h2>Mit 14 Jahren gebaut</h2>
+                <p>Die erste Version habe ich 2022 gebaut. Auf ihr kann ein Lichtpunkt mit variabler Geschwindigkeit hin- und herlaufen. 
+                    Dies wird durch 3 Taster (schneller, langsamer, stopp) realisiert</p>
+                <button class="main_btn_neu"><a href="#v2">Zu Version 2</a></button>
+            </div>
+            <div class="main_img-container_neu">
+                <div class="main_img-card_neu" id="card-2"><img src="/EB/Bilder EMDR/V1Gut.jpeg" alt="Foto vom Gehäuse der 1. Version"></div>
+            </div>
+            
+        </div>
+     </div>
+
+
+     <!-- About Section -->
+     <div class="main_neu" id="v2">
+        <div class="main_container_neu">
+            <div class="main_img-container_neu">
+                <div class="main_img-card_neu"><img src="/EB/Bilder EMDR/V2Gut.jpeg" alt="Mein KI-Roboterbild als Logo"></div>
+                
+            </div>
+            <div class="main_content_neu" id="EMDR">
+                <h1>Version 2</h1>
+                <h2>Ein Fortschritt in der Bedienung</h2>
+                <p>Mit Infrarot-Fernsteuerung anstatt von Schaltern erhöht den Benutzerkomfort und ermöglicht es dem 
+                    Therapeuten, die Leiste auch von größerer Distanz zu steuern. Zusätzlich wurde das gehäuse optimiert.
+                </p>
+                <button class="main_btn_neu"><a href="#v3">Zu Version 3</a></button>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- Feature Section -->
+     <div class="main_neu" id="v3">
+        <div class="main_container_neu">
+            <div class="main_content_neu" id="EMDR">
+                <h1>Version 3</h1>
+                <h2>Mit vielen neuen Features</h2>
+                <p>Version 3 kommt auch mit IR-Steuerung daher besitzt ein I2C-Display, welches den Batteriestand (Spannungsmessung) 
+                    und die aktuell eingestellte Geschwindigkeit anzeigt. In Zukunft soll auch eine Anzahl an Durchläufen, nach denen die Leiste automatisch
+                    stoppt, ausgegeben werden.</p>
+                <button class="main_btn_neu"><a href="#action">Zur Leiste in Aktion</a></button>
+            </div>
+            <div class="main_img-container_neu">
+                <div class="main_img-card_neu" id="card-2"><img src="/EB/Bilder EMDR/V3Gut.jpeg" alt="Foto vom Gehäuse der 1. Version"></div>
+            </div>
+            
+        </div>
+     </div>
+
+     <h1 class="laeuft" id="action"><span>In Aktion</span></h1>
+     <center>
+        <video width="600px" controls>
+            <source src="/EB/Bilder EMDR/IMG_3323.mp4" type="video/mp4">
+         </video>
+     </center>
+     <h1 class="laeuft" id="code"><span>Code</span></h1>
+
+     <div class="codebilder">
+        <div class="bild">
+            <img src="/EB/Bilder EMDR/Screenshot 2025-01-09 194802 - Kopie.png" alt="Screenshot aus dem Code">
+        </div>
+        <div class="bild">
+            <img src="/EB/Bilder EMDR/Screenshot 2025-01-09 194934 - Kopie.png" alt="Screenshot aus dem Code">
+        </div>
+        <div class="bild">
+            <img src="/EB/Bilder EMDR/Screenshot 2025-01-09 195303 - Kopie.png" alt="Screenshot aus dem Code">
+        </div>
+        <div class="bild">
+            <img src="/EB/Bilder EMDR/Screenshot 2025-01-09 195357 - Kopie.png" alt="Screenshot aus dem Code">
+        </div>
+     </div>
+     <p class="nixCode">Den gesamten Quellcode möchte ich hier nur ungern zum Download anbieten. Wenn sie weitere Fragen haben oder sie sich das Projekt noch
+        genauer anschauen möchten, zögern sie nicht, micht zu kontaktieren.
+     </p>
+     
+</body>
+</html>

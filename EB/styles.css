@@ -1056,4 +1056,71 @@ div:not(.services_card) > details p {
     }
 }
 
+.codebilder{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.bild{
+    margin: 10px;
+}
+
+
+.bild > img{
+    height: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    .bild > img{
+        height: 300px;
+    }
+}
+
+.nixCode{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+
+#EMDR{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 85%;
+}
+
+.laeuft{
+    text-align: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.laeuft > span{
+    font-size: 2rem;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #27a, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #27a, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#code > span{
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+}
