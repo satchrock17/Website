@@ -98,3 +98,14 @@ body{
     justify-content:end;
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ebox, .Lbox, .sbox{
+        margin-top: 20px;
+    }
+}
