@@ -1,6 +1,7 @@
 body{
-    background-color: white;
+    background-color: black;
     font-family: Ubuntu,Arial, Helvetica, monospace;
+    color: white;
 }
 
 /*Navbar*/
@@ -12,6 +13,8 @@ body{
     overflow: hidden;
     border-radius: 15px;
     padding: 0.5%;
+    border-style:solid;
+    border-color:white
 }
 
 .Navbar a{
