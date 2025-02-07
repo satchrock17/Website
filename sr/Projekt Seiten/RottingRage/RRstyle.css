@@ -1,6 +1,7 @@
 body{
-    background-color: white;
+    background-color: black;
     font-family: Ubuntu,Arial, Helvetica, monospace;
+    color:white;
 }
 
 /*Navbar*/
@@ -8,10 +9,12 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0f0f0f;
+    background-color: black;
     overflow: hidden;
     border-radius: 15px;
     padding: 0.5%;
+    border-color:white;
+    border-style: solid;
 }
 
 .Navbar a{
@@ -31,21 +34,24 @@ body{
 }
 
 .ProjectPage{
-    border: 5px;
+    
     border-radius: 10px;
     border-style: solid;
     margin-top: 20px;
+    border-color:white;
 }
 
 .ProjectTitle{
     font-size: x-large;
     margin-left: 20px;
+    color:white;
 }
 
 .Headline{
     font-size: larger;
     margin-top: 15px;
     margin-left: 20px;
+    color:white;
 }
 
 .links{

@@ -1,6 +1,6 @@
 
 body{
-    background-color: white;
+    background-color: black;
     font-family: Ubuntu,Arial, Helvetica, monospace;
 }
 
@@ -9,10 +9,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0f0f0f;
     overflow: hidden;
     border-radius: 15px;
     padding: 0.5%;
+    border-style:solid;
+    border-color:white;
 }
 
 .Navbar a{
@@ -35,6 +36,7 @@ body{
 
 #AboutMeHeadline{
     font-size: xx-large;
+    color:white;
 }
 
 .AboutMe{
@@ -43,24 +45,28 @@ body{
     display: flex;
     text-align: left;
     align-items: center;
-    background-color: white;
+    background-color: black;
     border: 5px;
     border-style:solid;
-    border-color: black;
+    border-color: white;
     border-radius: 15px;
     padding: 15px;
     gap: 10px;
+    color:white
+    
 }
 
 /*Projects*/
 
 #ProjectsHeadline{
     font-size: xx-large;
+    color:white;
 }
 
 .ProjectHeadline{
     font-size: larger;
     flex-shrink:0;
+    color:white;
 }
 
 .Project{
@@ -69,67 +75,68 @@ body{
     display: flex;
     text-align: left;
     align-items: flex-start;
-    background-color: white;
+    background-color: black;
     border: 2px;
     border-style:solid;
-    border-color: black;
+    border-color: white;
     padding: 15px;
     gap: 10px;
+    color:white;
 }
 
 #RottingRage button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #Bwinfo button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #Terra button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #Dartscheibe button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #SelfmadeStifte button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #PythonAnfängerProjekte button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
 #WorkplaceToGo button{
-    background-color: black;
+    background-color: white;
     border: 2px;
     border-radius: 10px;
-    color:white;
+    color:black;
     padding:10px 10px;
 }
 
