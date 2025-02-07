@@ -39,19 +39,9 @@ body{
 
 .ProjectTitle{
     font-size: x-large;
-    margin-left: 20px;
 }
 
 .Headline{
     font-size: larger;
     margin-top: 15px;
-    margin-left: 20px;
-}
-
-.links{
-    padding-left:20px;
-}
-
-.Text{
-    margin-left:20px;
 }
