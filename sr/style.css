@@ -7,13 +7,17 @@ body{
 /*Navbar*/
 .Navbar{
     display: flex;
+    background-color: black;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
+    overflow:auto;
     border-radius: 15px;
-    padding: 0.5%;
+    padding: 10px;
     border-style:solid;
     border-color:white;
+    position:fixed;
+    top:8px;
+    width: calc(100% - 41px);
 }
 
 .Navbar a{
@@ -37,10 +41,12 @@ body{
 #AboutMeHeadline{
     font-size: xx-large;
     color:white;
+    margin-top:100px;
 }
 
 .AboutMe{
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: large;
     display: flex;
     text-align: left;
@@ -132,7 +138,7 @@ body{
     padding:10px 10px;
 }
 
-#WorkplaceToGo button{
+#Thinkpad button{
     background-color: white;
     border: 2px;
     border-radius: 10px;
