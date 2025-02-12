@@ -1,5 +1,6 @@
 body{
-    background-color: white;
+    background-color: black;
+    color:white;
     font-family: Ubuntu,Arial, Helvetica, monospace;
 }
 
@@ -11,6 +12,8 @@ body{
     background-color: #0f0f0f;
     overflow: hidden;
     border-radius: 15px;
+    border-style: solid;
+    border-color: white;
     padding: 0.5%;
 }
 
@@ -39,9 +42,19 @@ body{
 
 .ProjectTitle{
     font-size: x-large;
+    margin-left: 20px;
 }
 
 .Headline{
     font-size: larger;
     margin-top: 15px;
+    margin-left:20px;
+}
+
+.Text{
+    margin-left: 20px;
+}
+
+.Links{
+    margin-left: 20px;
 }
